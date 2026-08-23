@@ -1,13 +1,12 @@
 package com.chimericdream.betterportallinking.neoforge;
 
+import com.chimericdream.betterportallinking.BetterPortalLinkingMod;
 import net.neoforged.fml.common.Mod;
 
-import com.chimericdream.betterportallinking.BetterPortalLinkingMod;
-import com.chimericdream.betterportallinking.ModInfo;
-
-@Mod(ModInfo.MOD_ID)
+@Mod("betterportallinking")
 public final class BetterPortalLinkingNeoForge {
     public BetterPortalLinkingNeoForge() {
+        // Run our common setup.
         BetterPortalLinkingMod.init();
     }
 }
